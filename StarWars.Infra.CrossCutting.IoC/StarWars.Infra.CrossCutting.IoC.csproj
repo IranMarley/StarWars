@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StarWars.Application\StarWars.Application.csproj" />
+    <ProjectReference Include="..\StarWars.Domain\StarWars.Domain.csproj" />
+    <ProjectReference Include="..\StarWars.Infra.Data\StarWars.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>

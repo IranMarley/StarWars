@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars.WebApi", "StarWars.WebApi\StarWars.WebApi.csproj", "{1B0A57DC-F4C7-414A-BE40-2DD809D07846}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars.Application", "StarWars.Application\StarWars.Application.csproj", "{AA45444B-F5F7-4958-99D6-0897EAD00634}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars.Domain", "StarWars.Domain\StarWars.Domain.csproj", "{900A3435-734F-44B4-9D6E-4408236B40CA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars.Infra.Data", "StarWars.Infra.Data\StarWars.Infra.Data.csproj", "{88884B23-FD6A-47B1-8E2B-139725BAFF45}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars.Infra.CrossCutting.IoC", "StarWars.Infra.CrossCutting.IoC\StarWars.Infra.CrossCutting.IoC.csproj", "{0A3A72FB-72D6-4C9B-BCFA-343AA46E218C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars.Tests", "StarWars.Tests\StarWars.Tests.csproj", "{CBF750B5-73CF-49AE-9544-E3B6B047E6B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarWars.Infra.CrossCutting.Support", "StarWars.Infra.CrossCutting.Support\StarWars.Infra.CrossCutting.Support.csproj", "{94A77725-CA02-473D-8E82-E0B8F5D986BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B0A57DC-F4C7-414A-BE40-2DD809D07846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B0A57DC-F4C7-414A-BE40-2DD809D07846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B0A57DC-F4C7-414A-BE40-2DD809D07846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B0A57DC-F4C7-414A-BE40-2DD809D07846}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA45444B-F5F7-4958-99D6-0897EAD00634}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA45444B-F5F7-4958-99D6-0897EAD00634}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA45444B-F5F7-4958-99D6-0897EAD00634}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA45444B-F5F7-4958-99D6-0897EAD00634}.Release|Any CPU.Build.0 = Release|Any CPU
+		{900A3435-734F-44B4-9D6E-4408236B40CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{900A3435-734F-44B4-9D6E-4408236B40CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{900A3435-734F-44B4-9D6E-4408236B40CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{900A3435-734F-44B4-9D6E-4408236B40CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88884B23-FD6A-47B1-8E2B-139725BAFF45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88884B23-FD6A-47B1-8E2B-139725BAFF45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88884B23-FD6A-47B1-8E2B-139725BAFF45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88884B23-FD6A-47B1-8E2B-139725BAFF45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A3A72FB-72D6-4C9B-BCFA-343AA46E218C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A3A72FB-72D6-4C9B-BCFA-343AA46E218C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A3A72FB-72D6-4C9B-BCFA-343AA46E218C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A3A72FB-72D6-4C9B-BCFA-343AA46E218C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF750B5-73CF-49AE-9544-E3B6B047E6B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF750B5-73CF-49AE-9544-E3B6B047E6B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF750B5-73CF-49AE-9544-E3B6B047E6B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF750B5-73CF-49AE-9544-E3B6B047E6B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94A77725-CA02-473D-8E82-E0B8F5D986BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A77725-CA02-473D-8E82-E0B8F5D986BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A77725-CA02-473D-8E82-E0B8F5D986BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A77725-CA02-473D-8E82-E0B8F5D986BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8214FEDD-1FC7-468B-8C32-BAE26788E3A5}
+	EndGlobalSection
+EndGlobal
