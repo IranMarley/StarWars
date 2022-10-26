@@ -12,10 +12,10 @@ namespace StarWars.WebApi.Controllers
     [Authorize]
     public class ManufacturerController : ControllerBase
     {
-        private readonly ILogger<StarshipController> _logger;
+        private readonly ILogger<ManufacturerController> _logger;
         private readonly IStarWarsService _StarWarsService;
 
-        public ManufacturerController(ILogger<StarshipController> logger, IStarWarsService StarWarsService)
+        public ManufacturerController(ILogger<ManufacturerController> logger, IStarWarsService StarWarsService)
         {
             _logger = logger;
             _StarWarsService = StarWarsService;

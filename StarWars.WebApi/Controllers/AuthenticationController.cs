@@ -5,7 +5,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace JWTAuth.WebApi.Controllers
+namespace StarWars.WebApi.Controllers
 {
     [Route("api/authentication")]
     [ApiController]

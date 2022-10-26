@@ -28,8 +28,4 @@
     <ProjectReference Include="..\StarWars.WebApi\StarWars.WebApi.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="UnitTest\" />
-  </ItemGroup>
-
 </Project>

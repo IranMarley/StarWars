@@ -9,7 +9,6 @@ namespace StarWars.Application.AutoMapper
         public ViewModelToDomainMappingProfile()
         {
             CreateMap<StarshipModel, StarshipEntity>();
-            CreateMap<StarWarsFilterModel, StarWarsFilter>();
         }
     }
 }
